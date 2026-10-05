@@ -1,0 +1,8 @@
+{
+  "status": "통과",
+  "audited_files": 31,
+  "prohibited_game_binaries_fonts_executables": false,
+  "source_dialogue_in_translation": false,
+  "personal_absolute_paths_or_credentials": false,
+  "release_assets": 1
+}

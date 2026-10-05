@@ -1,0 +1,10 @@
+{
+  "status": "통과",
+  "patch": "TombRaiderAnniversary_PS2_KO_v1.0.0.xdelta",
+  "patch_size": 305354,
+  "patch_sha256": "e1e99e903843e670674aa3d1056747200b90c6105101b8d8bbed2af07b5e2cd2",
+  "reconstructed_size": 4201054208,
+  "reconstructed_sha256": "b339f657bf198281313da775671c376edf9b521f3c58ccebae775f17703f3efd",
+  "source_sha256": "c045214d7863be1d1e40f445809ce9db9b4ecbc539ef2b6c69783f51bb8c7640",
+  "temporary_iso_created": false
+}

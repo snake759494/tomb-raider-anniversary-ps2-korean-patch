@@ -1,0 +1,13 @@
+{
+  "status": "통과",
+  "public_source_rebuild_sha256": "b339f657bf198281313da775671c376edf9b521f3c58ccebae775f17703f3efd",
+  "matches_release_iso": true,
+  "translated_unique": 2345,
+  "hangul_count": 851,
+  "python": "3.13.1",
+  "dependencies": {
+    "Pillow": "11.1.0",
+    "numpy": "2.2.3",
+    "pycdlib": "1.16.0"
+  }
+}

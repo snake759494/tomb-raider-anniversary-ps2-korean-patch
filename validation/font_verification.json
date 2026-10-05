@@ -1,0 +1,48 @@
+{
+  "status": "통과",
+  "glyph_count": 851,
+  "pages": [
+    {
+      "page": 0,
+      "entry": 3244,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    },
+    {
+      "page": 1,
+      "entry": 2471,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    },
+    {
+      "page": 2,
+      "entry": 1335,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    },
+    {
+      "page": 3,
+      "entry": 595,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    },
+    {
+      "page": 4,
+      "entry": 2817,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    },
+    {
+      "page": 5,
+      "entry": 2077,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    },
+    {
+      "page": 6,
+      "entry": 913,
+      "unchanged_outside_hangul_slots": true,
+      "header_and_palette_unchanged": true
+    }
+  ]
+}

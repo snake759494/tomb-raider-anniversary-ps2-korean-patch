@@ -1,0 +1,62 @@
+{
+  "status": "사용자 확인: 기존 일본어 영상 자막이 한국어로 정상 표시됨",
+  "date": "2026-10-05",
+  "final_iso_sha256": "b339f657bf198281313da775671c376edf9b521f3c58ccebae775f17703f3efd",
+  "game_serial": "SLPS-25856",
+  "game_crc": "95CA1D74",
+  "user_confirmation": "스크린샷에 있던 일본어로 나오던 자막은 한국어로 잘 나와요. 제가 확인했어요.",
+  "scope": "사용자가 제보한 영상 대사 자막의 실제 한글 표시 확인. 같은 SCH 파일 전체 19개 대사는 정적 검증 완료.",
+  "agent_checked": [
+    "최종 ISO 새 부팅과 타이틀 한글 표시",
+    "새 게임 난이도와 밝기 설정",
+    "첫 스테이지 일반 대사 한글 표시"
+  ],
+  "evidence": [
+    "runtime_movie_title.png",
+    "runtime_movie_settings2.png",
+    "runtime_movie_brightness2.png",
+    "runtime_movie_check_23.png"
+  ],
+  "prior_build_checks": {
+    "status": "신규 부팅 및 초반 화면 표본 확인",
+    "emulator": "PCSX2 v2.9.96",
+    "game_serial": "SLPS-25856",
+    "game_crc": "B05805B6",
+    "final_iso_sha256": "b008db47d93c9e953642e94f6ac2019d191e28e426f5479fdea34f094244a22d",
+    "final_build_checked": [
+      "이전 상태 저장을 불러오지 않고 완성 ISO를 새로 부팅",
+      "타이틀 메뉴의 새 게임, 크로프트 저택, 설정, 보상, 프로필 변경과 버튼 아이콘 확인"
+    ],
+    "final_build_evidence": "runtime_final_title.png",
+    "prior_build_sha256": "a9ffd94a01a8445cc7546ba6ee13773e6c2e086549facd1e53c7dc270cb7dbf4",
+    "prior_build_checked": [
+      "새 게임 난이도, 수동 붙잡기, 와이드 화면, 프로그레시브 스캔 설정",
+      "밝기 조절 설명과 버튼 아이콘",
+      "첫 스테이지에 진입하고 이동 조작 안내 한글 표시",
+      "게임 내 일시 정지 메뉴 표시"
+    ],
+    "prior_build_evidence": [
+      "runtime_after_input.png",
+      "runtime_confirm.png",
+      "runtime_gameplay.png",
+      "runtime_pause.png"
+    ],
+    "final_revision_changes": "음악 목록 47종 번역, 한글 1자 추가 및 조작 그림 글자 경계 정리. 최종본은 전체 정적 검증과 새 부팅을 다시 수행함.",
+    "not_verified": [
+      "PS2 실기 실행",
+      "전체 스테이지 완주",
+      "저장 및 불러오기 왕복",
+      "모든 대사와 개발자 해설 재생",
+      "모든 화면의 줄바꿈 및 잘림",
+      "모든 사전 렌더링 영상 프레임의 문자"
+    ],
+    "screenshots": "PCSX2가 생성한 상태 저장의 Screenshot.png를 추출함. 상태 저장을 불러오는 방식으로 게임을 시작하지 않음."
+  },
+  "not_verified": [
+    "전체 스테이지 완주",
+    "PS2 실기",
+    "저장/불러오기 왕복",
+    "모든 화면의 줄바꿈과 잘림"
+  ],
+  "notes": "에뮬레이터 상태는 새 부팅 후 증거 캡처 목적으로 저장했으며 이전 상태를 불러오지 않음. 영상 자막 확인은 사용자의 직접 실행 확인을 근거로 함."
+}

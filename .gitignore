@@ -1,0 +1,16 @@
+/analysis/
+/build/
+/work/
+*.iso
+*.ISO
+*.xdelta
+*.exe
+*.ttf
+*.otf
+*.bin
+*.raw
+*.PSS
+__pycache__/
+*.pyc
+/translation/final_text.json
+/translation/hangul_map.json

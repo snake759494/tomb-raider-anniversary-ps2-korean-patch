@@ -1,0 +1,129 @@
+{
+  "status": "통과",
+  "scanned_archive_entries": 3376,
+  "movie_files": 1,
+  "cues": [
+    {
+      "time": "13.5",
+      "translation": "어떻게 해야 당신의 관심을 그렇게 끌 수 있지?",
+      "glyph_width": 417,
+      "source_sha256": "80c90ec9e94e51bb01c91938c1848dea0decabae02c8f91fe995ebf0dbc61e80"
+    },
+    {
+      "time": "19.5",
+      "translation": "지금처럼만 하면 당신도",
+      "glyph_width": 208,
+      "source_sha256": "99ee41a573d46e9f31fd327babcabf96573a3cf07576425e7383411501477f0a"
+    },
+    {
+      "time": "21.7",
+      "translation": "곧 그렇게 될 거야.",
+      "glyph_width": 166,
+      "source_sha256": "6f6f5a6ec879a76da3112bf304d4a1420d5afdf6f3dfd901f22278b1330cd8bb"
+    },
+    {
+      "time": "23.3",
+      "translation": "그거 고맙군.",
+      "glyph_width": 110,
+      "source_sha256": "ecb3631efceb863dc36d62860150bb94831e15a7446d1734f283c187e4a02285"
+    },
+    {
+      "time": "25.3",
+      "translation": "하지만 오늘은 다른 일로 왔어.",
+      "glyph_width": 270,
+      "source_sha256": "108af7d34e921299cd0f61a74e23cd78084e244b6601f7fbbe316ccbed0c8b74"
+    },
+    {
+      "time": "28.0",
+      "translation": "소개하지. 내틀라 테크놀로지의",
+      "glyph_width": 271,
+      "source_sha256": "5bfcf53949b2e544e7d0fea187a053ac63cb36238d78b502b34a39220948d9b6"
+    },
+    {
+      "time": "30.8",
+      "translation": "재클린 내틀라야.",
+      "glyph_width": 148,
+      "source_sha256": "95d3fe6d8c7b2bd659fc1134ccb98319e06b7898dbcf60c1446333115c1f8cac"
+    },
+    {
+      "time": "33.5",
+      "translation": "처음 뵙겠어요, 크로프트 씨.",
+      "glyph_width": 249,
+      "source_sha256": "8ff4afdfe171136afdc6efcd188e6fada8053bd54e75515a9ffca8303e986c61"
+    },
+    {
+      "time": "35.0",
+      "translation": "저희 회사에서는 고대 유물 연구를 위해",
+      "glyph_width": 349,
+      "source_sha256": "4433ba4bfc396310e4b434b98603096a28c270e13841dc02f028741774715628"
+    },
+    {
+      "time": "38.5",
+      "translation": "어떤 유물을 찾고 있어요.",
+      "glyph_width": 223,
+      "source_sha256": "4f3eec1ae246c8e044ae1cafdf2e6caadc10c28d57ab35ed89c84536308ed144"
+    },
+    {
+      "time": "40.5",
+      "translation": "보물찾기의 전문가라고 믿고",
+      "glyph_width": 246,
+      "source_sha256": "c5c393eec1170b9cb2afd7de0fbeba2844581bb44451dd5ab777e93063b43c7c"
+    },
+    {
+      "time": "44.0",
+      "translation": "당신에게 일을 맡기고 싶어요.",
+      "glyph_width": 261,
+      "source_sha256": "8b929411e959e35624aa92cca114f37624646fac0cadbcd7e9e4a05ccb60abd2"
+    },
+    {
+      "time": "46.0",
+      "translation": "사람을 잘못 고르셨네요. 전 취미로 할 뿐이에요.",
+      "glyph_width": 427,
+      "source_sha256": "060e664c6e5270bbd943f550c107e74a5bb9df691c5233aea5d22582d10d72b7"
+    },
+    {
+      "time": "49.5",
+      "translation": "그래서 당신에게 부탁드리는 거예요, 크로프트 씨.",
+      "glyph_width": 438,
+      "source_sha256": "a048ca1e9cd6b40ae624d76e3dad5ce0547c4b7c512eaca8f5cc9d04e79af3d0"
+    },
+    {
+      "time": "53.0",
+      "translation": "아버님과 함께 찾으시던 물건이죠.",
+      "glyph_width": 299,
+      "source_sha256": "3534c3e61bdfd53faff24642d194507a53ab60aada25194a487e5d286adc3241"
+    },
+    {
+      "time": "57.0",
+      "translation": "아틀란티스의 사이언을 오랫동안 찾으셨잖아요.",
+      "glyph_width": 413,
+      "source_sha256": "3ca0b986460e9b1babee487ca5a708114741159800de81621cb6784bb3274928"
+    },
+    {
+      "time": "60.0",
+      "translation": "하지만 콸로펙의 무덤 위치를 알아내지 못했죠.",
+      "glyph_width": 412,
+      "source_sha256": "b043a5e42a03968d915f1778f5cd48ac2d3a8b634396a10739690fb47db25aa3"
+    },
+    {
+      "time": "63.5",
+      "translation": "빌카밤바를 찾았다고요?",
+      "glyph_width": 211,
+      "source_sha256": "3a0dde290553c01ee84d980572bc8f971bcaa8cdcd7386b5491bc02fe398cae1"
+    },
+    {
+      "time": "66.0",
+      "translation": "그나저나 페루는 좋아하세요?",
+      "glyph_width": 258,
+      "source_sha256": "13ffc653835a398b5d720e4ff7d22d8d930f11523f177ee9004ef3906c4c8e9a"
+    }
+  ],
+  "glyphs": 180,
+  "preserved_ascii_glyphs": 47,
+  "korean_glyphs": 133,
+  "elf_change_range": [
+    "0x29ac20",
+    "0x29b058"
+  ],
+  "iso_sha256": "b339f657bf198281313da775671c376edf9b521f3c58ccebae775f17703f3efd"
+}
