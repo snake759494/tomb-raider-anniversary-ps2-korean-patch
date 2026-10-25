@@ -1,8 +1,8 @@
 {
   "status": "통과: 바이너리 무결성과 문자열 왕복",
   "counts": {
-    "unchanged_archive_entries": 2728,
-    "changed_archive_entries": 648,
+    "unchanged_archive_entries": 2723,
+    "changed_archive_entries": 653,
     "preserved_subtitle_instances": 2294,
     "translated_subtitle_instances": 2282,
     "subtitle_blocks_verified": 2498,
@@ -11,11 +11,11 @@
     "unchanged_iso_files": 24,
     "movie_glyph_table_modified": 1
   },
-  "unique_sources": 2387,
-  "unique_direct_translations": 2345,
-  "hangul_glyphs": 851,
+  "unique_sources": 2402,
+  "unique_direct_translations": 2360,
+  "hangul_glyphs": 852,
   "source_sha256": "c045214d7863be1d1e40f445809ce9db9b4ecbc539ef2b6c69783f51bb8c7640",
-  "target_sha256": "b339f657bf198281313da775671c376edf9b521f3c58ccebae775f17703f3efd",
+  "target_sha256": "b6511042d9b1b26fa61fad4b6216d615b915ab3031420e63e6bbfefe13f32d15",
   "limitations": [
     "실행 검증은 별도 보고서 참조.",
     "전체 플레이 미확인."

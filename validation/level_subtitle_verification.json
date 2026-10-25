@@ -1,0 +1,102 @@
+{
+  "status": "통과",
+  "entries": [
+    179,
+    298,
+    2207,
+    2638,
+    2910
+  ],
+  "lines": [
+    {
+      "entry": 179,
+      "bytes": 29,
+      "used": 28,
+      "translation": "잘했지만 상대를 잘못 골랐어."
+    },
+    {
+      "entry": 179,
+      "bytes": 20,
+      "used": 18,
+      "translation": "드디어 조용해졌군."
+    },
+    {
+      "entry": 179,
+      "bytes": 22,
+      "used": 20,
+      "translation": "이걸 해 보고 싶었지."
+    },
+    {
+      "entry": 298,
+      "bytes": 29,
+      "used": 26,
+      "translation": "아무래도 의욕이 없나 보군."
+    },
+    {
+      "entry": 298,
+      "bytes": 31,
+      "used": 26,
+      "translation": "우린 결국 친해지지 못했군."
+    },
+    {
+      "entry": 298,
+      "bytes": 28,
+      "used": 23,
+      "translation": "그건 자업자득이란 거야."
+    },
+    {
+      "entry": 2207,
+      "bytes": 21,
+      "used": 20,
+      "translation": "잘 가요, 마드모아젤."
+    },
+    {
+      "entry": 2207,
+      "bytes": 10,
+      "used": 9,
+      "translation": "어리석긴."
+    },
+    {
+      "entry": 2638,
+      "bytes": 12,
+      "used": 12,
+      "translation": "참 유감이야."
+    },
+    {
+      "entry": 2638,
+      "bytes": 10,
+      "used": 5,
+      "translation": "젠장."
+    },
+    {
+      "entry": 2638,
+      "bytes": 12,
+      "used": 7,
+      "translation": "아깝군."
+    },
+    {
+      "entry": 2910,
+      "bytes": 22,
+      "used": 22,
+      "translation": "신선한 피 냄새가 좋군."
+    },
+    {
+      "entry": 2910,
+      "bytes": 6,
+      "used": 5,
+      "translation": "젠장."
+    },
+    {
+      "entry": 2910,
+      "bytes": 39,
+      "used": 32,
+      "translation": "이제 막 서로 알게 됐는데 말이야."
+    },
+    {
+      "entry": 2910,
+      "bytes": 28,
+      "used": 22,
+      "translation": "봤지, 콜드? 내 공이야!"
+    }
+  ]
+}

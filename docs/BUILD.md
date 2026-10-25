@@ -9,6 +9,7 @@ python -X utf8 tools/build_patch.py
 python -X utf8 tools/verify_patch.py
 python -X utf8 tools/verify_font.py
 python -X utf8 tools/verify_movie_subtitles.py
+python -X utf8 tools/verify_level_subtitles.py
 python -X utf8 tools/make_patch.py
 ```
 

@@ -5,6 +5,7 @@ import numpy as np
 from PIL import Image,ImageFont,ImageDraw
 import gs
 import movie_subtitles
+import level_subtitles
 ROOT=Path(__file__).resolve().parents[1]
 def readj(p):return json.loads((ROOT/p).read_text(encoding='utf8'))
 def writej(p,obj):(ROOT/p).write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf8')
@@ -19,8 +20,8 @@ def normalized(s):
  return s
 
 def translations():
- rows=movie_subtitles.extract()
- sources={x['source'] for x in LOC}|{t['source'] for x in SUB for t in x['texts'] if t['lang']==5}|{c['source'] for x in rows for c in x['cues']}
+ rows=movie_subtitles.extract();level=level_subtitles.extract()
+ sources={x['source'] for x in LOC}|{t['source'] for x in SUB for t in x['texts'] if t['lang']==5}|{c['source'] for x in rows for c in x['cues']}|{x['source'] for x in level}
  corpus=readj('translation/ko_by_sha256.json');result={};errors=[]
  for source in sources:
   key=hashlib.sha256(source.encode('utf8')).hexdigest()
@@ -29,14 +30,14 @@ def translations():
   if collections.Counter(ICONS.findall(source))!=collections.Counter(ICONS.findall(target)):errors.append(('icons',key))
   if FORMAT.findall(source)!=FORMAT.findall(target):errors.append(('formats',key))
   result[source]=target
- assert len(corpus)==2345 and len(result)==2387
+ assert len(corpus)==2360 and len(result)==2402
  assert not errors,errors[:3]
  writej('translation/final_text.json',result)
  return result
 
 
 def fontbuild(texts):
- # Keep all original low-code glyphs and non-Hangul punctuation. Use existing 19x19 Japanese cells.
+ # Keep all original low-code glyphs and non-Hangul punctuation. Use existing 18x18 Japanese cells.
  chars=sorted({c for s in texts.values() for c in ICONS.sub('',s) if '\uac00'<=c<='\ud7a3'})
  reserved={int.from_bytes(c.encode('cp932'),'big') for s in texts.values() for c in ICONS.sub('',s) if ord(c)>=128 and not '\uac00'<=c<='\ud7a3'}
  slots=[g for g in GLYPHS if g['code']>=0x8000 and g['w']==19 and g['h']==19 and g['code'] not in reserved]
@@ -119,6 +120,7 @@ def main():
  changes.update(localize_controls.build())
  movie_rows=movie_subtitles.extract()
  changes.update(movie_subtitles.rebuild(movie_rows,texts,enc))
+ changes.update(level_subtitles.rebuild(level_subtitles.extract(),texts,enc))
  elf,changes[783]=movie_subtitles.fontbuild(movie_rows,texts,cmap)
  for s in texts.values():enc(s)
  changes[1670]=changes[1671]=rebuild_locals(texts,enc)

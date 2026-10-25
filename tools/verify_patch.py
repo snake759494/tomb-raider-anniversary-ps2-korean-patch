@@ -81,3 +81,4 @@ for f in bp.FILES:
 iso.close()
 report=dict(status='통과: 바이너리 무결성과 문자열 왕복',counts=dict(count),unique_sources=len(texts),unique_direct_translations=sum(k!=v for k,v in texts.items()),hangul_glyphs=len(cmap),source_sha256=bp.digest(src),target_sha256=bp.digest(dst),limitations=['실행 검증은 별도 보고서 참조.','전체 플레이 미확인.'])
 bp.writej('build/verification.json',report);print(json.dumps(report,ensure_ascii=True,indent=2))
+
